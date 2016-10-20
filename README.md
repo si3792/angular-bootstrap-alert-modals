@@ -3,7 +3,7 @@ A very simple angular service, providing a prettier alternative to alert(), usin
 
 1. [Installation](#installation)
 2. [Configuration](#configuration)
-3. [How to use](#how)
+3. [How to use](#how-to-use)
 4. [Development](#development)
 5. [Thanks](#thanks)
 6. [License](#license)

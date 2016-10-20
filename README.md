@@ -12,7 +12,7 @@ A very simple angular service, providing a prettier alternative to alert(), usin
 
 ## Configuration
 
-1. First, reference the minified script and its dependencies:
+* First, reference the minified script and its dependencies:
 
 ```html
 <!-- Boostrap -->
@@ -25,42 +25,42 @@ A very simple angular service, providing a prettier alternative to alert(), usin
 <!-- angular-modal-service -->
 <script src="/node_modules/angular-modal-service/dst/angular-modal-service.min.js"></script>
 
-<!-- The demo service -->
+<!-- angular-bootstrap-alert-modals  -->
 <script src="/dist/angular-bootstrap-alert-modals.min.js"></script>
 ```
 
-2. Second, specify `BootstrapAlertModals` as dependency of you app:
+* Second, specify `BootstrapAlertModals` as dependency of you app:
 
 ```javascript
   var app = angular.module('SomeApp', ['BootstrapAlertModals']);
 ```
 
-3. Then, inject `AlertModalService` into a controller, service or directive:
+* Then, inject `AlertModalService` into a controller, service or directive:
 
 ```javascript
   app.controller("sampleController", function($scope, AlertModalService) { ...
 ```
 
-4. Now, you can call `AlertModalService.alert()` to display a modal alert.
+* Now, you can call `AlertModalService.alert()` to display a modal alert.
 
 ## How to use
 
 To call `AlertModalService.alert(title, text, type)` you must provide the following arguments:
 * `title` - The title of the alert
 * `text` - The body of the alert
-* `type` - Can be `success`, `info`, `warning` or `danger`, which apply the corresponding bootstrap styling to the modal.
+* `type` - Can be `success`, `info`, `warning` or `danger`, which applies the corresponding bootstrap styling to the modal.
 
 ## Development
 
-Run:
+Run
 `npm install`
 to download developer dependencies.
 
-Test with:
+Test with
 `npm test`,
 which also generates a coverage report at `coverage/`
 
-To generate minified version to `dist/`, run:
+To generate minified version to `dist/`, run
 `npm run minify`
 
 ## Thanks

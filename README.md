@@ -1,5 +1,12 @@
 # angular-bootstrap-alert-modals
-Simple angular service, providing a prettier alternative to alert(), using bootstrap modals.
+A very simple angular service, providing a prettier alternative to alert(), using bootstrap modals.
+
+1. [Installation](#Installation)
+2. [Configuration](#Configuration)
+3. [How to use](#How to use)
+4. [Development](#Development)
+5. [Thanks](#Thanks)
+6. [License](#License)
 
 ## Installation
 

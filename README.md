@@ -16,6 +16,9 @@ A very simple angular service, providing a prettier alternative to alert(), usin
 
 ## Installation
 
+Install using npm:
+`npm install angular-bootstrap-alert-modals`
+
 ## Configuration
 
 * First, reference the minified script and its dependencies:

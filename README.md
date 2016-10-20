@@ -60,6 +60,9 @@ Test with
 `npm test`,
 which also generates a coverage report at `coverage/`
 
+You can also check out the sample by running `npm start` and navigating to
+`http://localhost:8080/sample/`
+
 To generate minified version to `dist/`, run
 `npm run minify`
 

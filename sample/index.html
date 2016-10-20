@@ -25,10 +25,36 @@
 
         <title>Alert demo</title>
     </head>
-    <body>
-        <div class='well' ng-controller='sampleController'>
-            <h1>Press the button to get an alert!</h1>
-            <button class='btn btn-default btn-lg' ng-click='testAlert()'>Test</button>
+    <body ng-controller='sampleController'>
+
+        <div class="jumbotron text-center container">
+            <h1 class='lead'>Generate an alert!</h1>
+            <hr/>
+            <p>
+                <form class='col-sm-8 col-sm-offset-2'>
+                    <div class="form-group">
+                        <label>Alert title:</label>
+                        <input type="text" class="form-control" ng-model='alertData.title'>
+                    </div>
+                    <div class="form-group">
+                        <label>Alert text:</label>
+                        <input type="text" class="form-control" ng-model='alertData.text'>
+                    </div>
+                    <div class="form-group">
+                        <label>Alert type:</label>
+                        <select class="form-control" ng-model='alertData.type'>
+                            <option value='success'>Success</option>
+                            <option value='info'>Info</option>
+                            <option value='warning'>Warning</option>
+                            <option value='danger'>Danger</option>
+                        </select>
+                    </div>
+                    <hr/>
+                    {{alertData}}
+                    <button class='btn btn-default btn-lg' ng-click='generateAlert()'>Generate</button>
+                </form>
+
+            </p>
         </div>
     </body>
 </html>

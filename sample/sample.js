@@ -4,8 +4,14 @@ var app = angular.module('SampleApp', ['BootstrapAlertModals']);
 
 app.controller("sampleController", function($scope, AlertModalService) {
 
-    $scope.testAlert = function() {
-        AlertModalService.alert("This is the title");
+    $scope.alertData = {
+      title: "Default title",
+      text: "Default text",
+      type: 'info'
+    };
+
+    $scope.generateAlert = function() {
+        AlertModalService.alert($scope.alertData.title);
     }
 
 });

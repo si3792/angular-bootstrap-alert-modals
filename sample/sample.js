@@ -18,4 +18,8 @@ app.controller("sampleController", function($scope, AlertModalService) {
         );
     }
 
+    $scope.testService = function() {
+      alert(AlertModalService.modalOpened);
+    }
+
 });

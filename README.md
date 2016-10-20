@@ -1,6 +1,11 @@
 # angular-bootstrap-alert-modals
 A very simple angular service, providing a prettier alternative to alert(), using bootstrap modals.
 
+![Success alert](https://lh6.googleusercontent.com/8_o6FtHTj8MeqUDxpEg_e3XtXd8OC2l6l9VKFUVDizW-xoftL5jZs48MyZpVPQNLM-kh3XHpC1OjX9s=w1920-h989)
+![Info alert](https://lh3.googleusercontent.com/nUF5RYT-Cw6MIb99qsKN9NaX-8Az_eGqIxXh_qJprmwjd76iz8WkaB-JpIOtyrLvrEcs2GRenxLeSzE=w1920-h989)
+![Warning alert](https://lh3.googleusercontent.com/2bHMEDAHozQVjO7VEaoLTWkklIIpg__8uw-duubw9GhK8MQt3mCBKEKk-PZpEGuI-ou1bip-unxVsMc=w1920-h989)
+![Danger alert](https://lh6.googleusercontent.com/MNNJDqycUKgX41t_N9NelJucje-faD2SgNk9BlsyaF6mjaRShkED34gC5ejkEwm1uETRRArJSxzs2AI=w1920-h989)
+
 1. [Installation](#installation)
 2. [Configuration](#configuration)
 3. [How to use](#how-to-use)
@@ -8,7 +13,6 @@ A very simple angular service, providing a prettier alternative to alert(), usin
 5. [Thanks](#thanks)
 6. [License](#license)
 
-!(https://lh6.googleusercontent.com/MNNJDqycUKgX41t_N9NelJucje-faD2SgNk9BlsyaF6mjaRShkED34gC5ejkEwm1uETRRArJSxzs2AI=w1920-h989)
 
 ## Installation
 

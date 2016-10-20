@@ -32,10 +32,10 @@ bootstrapAlertModals.directive( 'focusMe', function($timeout) {
        restrict: 'A',
        link: function( $scope, elem, attrs ) {
           elem.ready(function(){
-              console.log(element);
+              console.log(elem);
               $timeout( function(){
                 elem.focus();
-              }, 150);
+              }, 500);
           })
        }
     }

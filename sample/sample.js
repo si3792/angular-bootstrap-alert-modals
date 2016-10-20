@@ -11,7 +11,7 @@ app.controller("sampleController", function($scope, AlertModalService) {
     };
 
     $scope.generateAlert = function() {
-        AlertModalService.alert($scope.alertData.title);
+        AlertModalService.alert($scope.alertData.title, $scope.alertData.text, $scope.alertData.type);
     }
 
 });

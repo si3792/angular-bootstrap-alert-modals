@@ -8,6 +8,8 @@ A very simple angular service, providing a prettier alternative to alert(), usin
 5. [Thanks](#thanks)
 6. [License](#license)
 
+!(https://lh6.googleusercontent.com/MNNJDqycUKgX41t_N9NelJucje-faD2SgNk9BlsyaF6mjaRShkED34gC5ejkEwm1uETRRArJSxzs2AI=w1920-h989)
+
 ## Installation
 
 ## Configuration

@@ -11,7 +11,12 @@ app.controller("sampleController", function($scope, AlertModalService) {
     };
 
     $scope.generateAlert = function() {
-        AlertModalService.alert($scope.alertData.title, $scope.alertData.text, $scope.alertData.type);
+        AlertModalService.alert($scope.alertData.title, $scope.alertData.text, $scope.alertData.type).then(
+          function() {
+            console.log('Modal closed');
+            alert('Modal closed!');
+          }
+        );
     }
 
 });

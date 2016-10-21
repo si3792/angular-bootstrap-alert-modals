@@ -15,16 +15,6 @@ bootstrapAlertModals.controller('AlertModalController', [
             close(null, 500);
         };
 
-
-        $scope.focusButton = function() {
-            alert('dd');
-            console.log('focusing');
-            angular.element("#close-button").focus();
-        }
-
-        $scope.$on('$viewContentLoaded', function() {
-            $scope.focusButton();
-        });
     }
 ]);
 

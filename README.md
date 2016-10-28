@@ -55,8 +55,8 @@ Install using npm:
 ## How to use
 
 To call `AlertModalService.alert(title, text, type)` you must provide the following arguments:
-* `title` - The title of the alert
-* `text` - The body of the alert
+* `title` - The title of the alert (string)
+* `texts` - The body of the alert (array of strings, each representing a new line)
 * `type` - Can be `success`, `info`, `warning` or `danger`, which applies the corresponding bootstrap styling to the modal.
 
 __Additionally__, `AlertModalService.alert()` returns a promise, which is

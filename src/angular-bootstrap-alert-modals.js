@@ -11,6 +11,14 @@ bootstrapAlertModals.controller('AlertModalController', [
         $scope.texts = texts;
         $scope.type = type;
 
+        $scope.init = function() {
+          // Convert texts to array if it isn't
+          if( !($scope.texts instanceof Array) ) {
+            $scope.texts = [texts];
+          }
+        }
+        $scope.init();
+
         $scope.close = function() {
             close(null, 500);
         };

@@ -35,7 +35,7 @@ Install using npm:
 <script src="/node_modules/angular-modal-service/dst/angular-modal-service.min.js"></script>
 
 <!-- angular-bootstrap-alert-modals  -->
-<script src="/dist/angular-bootstrap-alert-modals.min.js"></script>
+<script src="/node_modules/angular-bootstrap-alert-modals/dist/angular-bootstrap-alert-modals.min.js"></script>
 ```
 
 * Second, specify `BootstrapAlertModals` as dependency of you app:
@@ -59,6 +59,9 @@ To call `AlertModalService.alert(title, text, type)` you must provide the follow
 * `text` - The body of the alert
 * `type` - Can be `success`, `info`, `warning` or `danger`, which applies the corresponding bootstrap styling to the modal.
 
+__Additionally__, `AlertModalService.alert()` returns a promise, which is
+resolved after the user closes the modal.
+
 ## Development
 
 Run
@@ -72,7 +75,7 @@ To generate minified version to `dist/`, run
 `npm run minify`
 
 It should also be noted that there are no tests currently for the
-package, but a testing framework is set up (Jasmine + Karma), with istanbul for coverage generation. Tests should go to `/test/` and the command for running them is `npm test`. 
+package, but a testing framework is set up (Jasmine + Karma), with istanbul for coverage generation. Tests should go to `/test/` and the command for running them is `npm test`.
 
 ## Thanks
 

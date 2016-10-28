@@ -1,6 +1,6 @@
 {
   "name": "angular-bootstrap-alert-modals",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Simple angular service, providing a prettier alternative to alert(), using bootstrap modals.",
   "main": "dist/angular-bootstrap-alert-modals.min.js",
   "directories": {
